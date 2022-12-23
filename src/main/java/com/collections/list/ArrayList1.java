@@ -1,3 +1,17 @@
+/*
+ ARRAYLIST:
+ 1. Duplicate values are allowed in Arraylist
+2. Allows any no. of null values
+3. Storage type: index
+4. Order of insertion-maintain
+5. Default capacity for arraylist is 10
+6. Incremental capacity = (current capacity*3/2) + 1 = 16
+7. Data structure: Resizable
+8. Best choice: retrival operation (random access interface is implemented in arraylist & vector)
+9. Worst choice: manipulation operation i.e. insertion in between arraylist or delete ()
+When insertion then perform Right Shift Operation
+When Remove any data then performs Left Shift Operation
+ */
 package com.collections.list;
 import java.util.ArrayList;
 import java.util.ListIterator;

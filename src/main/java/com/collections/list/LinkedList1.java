@@ -1,3 +1,14 @@
+/*
+ LINKEDLIST:
+1. Duplicate are allowed in Arraylist
+2. Allows any no. of null values
+3. Order of insertion-maintain
+4. Storage type: index
+5. No Default capacity in linkedlist
+6. Data structure: linear
+7. Best choice: manipulation operation i.e. insertion in between linkedlist or delete ()
+8. Worst choice: retrieval operation (random access interface is not implemented)
+ */
 package com.collections.list;
 
 import java.util.Iterator;
